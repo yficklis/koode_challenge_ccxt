@@ -21,10 +21,6 @@ $ composer global update friendsofphp/php-cs-fixer
 $ php-cs-fixer fix .\php-cs-fixer.dist.php
 ```
 
-## Running Migrations
-```
-$ php artisan migrate:refresh
-```
 
 If not exists create a _database.sqlite_ file in the _database\database.sqlite_ directory
 
